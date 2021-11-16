@@ -1,0 +1,7 @@
+@media all and (max-width: 675px) {
+    .logo {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+}
