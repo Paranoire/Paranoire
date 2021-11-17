@@ -1,13 +1,3 @@
-.logo{
-    width: 800px;
-    height: auto;
-    display: block;
-    margin-left: 389px;
-    margin-top: -197px;
-    position: relative; 
-    z-index: 0;
-}
-
 .background-web{
 
     background-color: black;
@@ -20,13 +10,29 @@
     -o-background-size: cover;
 }
 
-.h2{
-    color: black;
-}
+  .tree {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .tree .links a {
+    margin: 0.75em auto;
+  }
+
+  .tree .footer {
+    margin: 2rem;
+  }
 
 
+  
+  .footer{
+      color: white;
+      font-family: 'Grenze', serif;
+  }
 
-.link-items{
+  .link-items{
     display: block;
     max-width: 550px;
     margin: 0 auto 15px;
@@ -48,11 +54,22 @@
     background-color: #black;
 }
 
-.linknya{
-    position:relative;
-    z-index: 1;
-    margin-top: -300px;
+.gambar{
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+    margin-left: ;
+    margin-top: -230px;
+    text-align: center;
 }
 
+.linknya{
+    margin-top: -300;
+    position: relative;
+    z-index: 0;
+}
 
-      
+#wrapper:hover .btn-white,
+.btn-primary:active,.btn-primary.active,.btn-primary.disabled,
+.btn-primary[disabled]{color:black; background-color:white;}
+#wrapper:hover .btn{color:#DCDCDC;text-decoration:none;background-position:0 -15px;-webkit-transition:background-position 0.1s linear;-moz-transition:background-position 0.1s linear;-o-transition:background-position 0.1s linear;transition:background-position 0.1s linear;}
